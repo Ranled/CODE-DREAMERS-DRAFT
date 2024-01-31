@@ -1,0 +1,25 @@
+document.getElementById("Home").addEventListener("click", goToHome);
+document.getElementById("Masterlist").addEventListener("click", goToMasterlist);
+document.getElementById(")Officers").addEventListener("click", goToOfficers);
+document.getElementById("Activities").addEventListener("click", goToActivities);
+document.getElementById("about").addEventListener("click", goToAbout);
+
+function goToHome() {
+    alert("Navigating to the home page");
+}
+
+function goToMasterlist() {
+    alert("Navigating to the masterlist page");
+}
+
+function goToOfficers() {
+    alert("Navigating to the officers page");
+}
+
+function goToActivities() {
+    alert("Navigating to the activities page");
+}
+
+function goToAbout() {
+    window.location.href = "home.html";
+}
